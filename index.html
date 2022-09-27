@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="add-task">
+        <input type="text" />
+        <span class="plus">+</span>
+      </div>
+
+      <div class="all" >
+      <button class="deleteall" >Delete All</button>
+      <button class="finishall" >Finish All</button>
+    </div>
+      <div class="tasks-content">
+        <span class="no-tasks">No Tasks To Show</span>
+      </div>
+    </div>
+
+    <div class="tasks-stats">
+      <div class="tasks-count">Tasks <span>0</span></div>
+      <div class="tasks-completed">Completed <span>0</span></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
