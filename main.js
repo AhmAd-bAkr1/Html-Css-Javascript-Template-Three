@@ -57,6 +57,7 @@ function addTaskToArry(taskText) {
   theEmptyArry.push(task);
 
   addElementsToPage(theEmptyArry);
+  console.log(theEmptyArry)
 
   addDatatoLocalStoreAge(theEmptyArry);
 }
