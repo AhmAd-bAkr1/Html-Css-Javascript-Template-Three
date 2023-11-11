@@ -77,7 +77,8 @@ body {
 .todo-container .tasks-content>span {
     display: block;
     background-color: #fff;
-    padding: 10px;
+    padding: 10px; 
+    cursor: pointer;
 }
 
 .todo-container .tasks-content>span:not(:last-child) {
